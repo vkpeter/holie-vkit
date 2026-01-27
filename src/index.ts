@@ -1,3 +1,4 @@
+export * from './utils/easterEgg';
 export * from './components/LanguageSwitcher';
 export * from './components/Toaster';
 export * from './components/Navbar';
