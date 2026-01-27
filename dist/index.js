@@ -1,3 +1,6 @@
+export * from './utils/easterEgg';
+import { showEasterEgg } from './utils/easterEgg';
+export { showEasterEgg };
 export * from './components/LanguageSwitcher';
 export * from './components/Toaster';
 export * from './components/Navbar';
