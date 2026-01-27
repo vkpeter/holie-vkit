@@ -39,3 +39,5 @@ export * from './components/Progress';
 export * from './components/Skeleton';
 export * from './components/Table';
 export * from './components/Toast';
+// Export hooks
+export { useToast } from './hooks/useToast';
