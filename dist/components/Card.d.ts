@@ -7,3 +7,5 @@ export declare const Card: React.ForwardRefExoticComponent<CardProps & React.Ref
 export declare const CardHeader: ({ children, className, ...props }: CardProps) => import("react/jsx-runtime").JSX.Element;
 export declare const CardContent: ({ children, className, ...props }: CardProps) => import("react/jsx-runtime").JSX.Element;
 export declare const CardFooter: ({ children, className, ...props }: CardProps) => import("react/jsx-runtime").JSX.Element;
+export declare const CardTitle: ({ children, className, ...props }: CardProps) => import("react/jsx-runtime").JSX.Element;
+export declare const CardDescription: ({ children, className, ...props }: CardProps) => import("react/jsx-runtime").JSX.Element;

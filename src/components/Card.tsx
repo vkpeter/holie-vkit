@@ -21,3 +21,11 @@ export const CardContent = ({ children, className = '', ...props }: CardProps) =
 export const CardFooter = ({ children, className = '', ...props }: CardProps) => (
   <div className={`p-4 border-t ${className}`} {...props}>{children}</div>
 );
+
+export const CardTitle = ({ children, className = '', ...props }: CardProps) => (
+  <h3 className={`text-2xl font-semibold leading-none tracking-tight ${className}`} {...props}>{children}</h3>
+);
+
+export const CardDescription = ({ children, className = '', ...props }: CardProps) => (
+  <p className={`text-sm text-muted-foreground ${className}`} {...props}>{children}</p>
+);
