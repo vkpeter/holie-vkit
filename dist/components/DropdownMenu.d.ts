@@ -1,0 +1,10 @@
+export declare const DropdownMenu: any;
+export declare const DropdownMenuTrigger: any;
+export declare const DropdownMenuContent: any;
+export declare const DropdownMenuItem: any;
+export declare const DropdownMenuGroup: any;
+export declare const DropdownMenuPortal: any;
+export declare const DropdownMenuSub: any;
+export declare const DropdownMenuRadioGroup: any;
+export declare const DropdownMenuSubTrigger: any;
+export declare const DropdownMenuSubContent: any;
