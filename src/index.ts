@@ -7,7 +7,6 @@ export * from './components/Navbar';
 export * from './components/Footer';
 export * from './hooks/useI18n';
 export * from './hooks/useAnalytics';
-export * from './hooks/useAICompletion';
 export * from './utils/i18n';
 export * from './utils/analytics';
 

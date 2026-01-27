@@ -1,6 +1,11 @@
-export declare const emailSchema: any;
-export declare const passwordSchema: any;
-export declare const authSchema: any;
+import { z } from 'zod';
+export declare const emailSchema: z.ZodString;
+export declare const passwordSchema: z.ZodString;
+export declare const authSchema: z.ZodObject<{
+    email: z.ZodString;
+    password: z.ZodString;
+    displayName: z.ZodOptional<z.ZodString>;
+}, z.core.$strip>;
 export declare const calculatePasswordStrength: (pwd: string) => {
     score: number;
     label: string;
