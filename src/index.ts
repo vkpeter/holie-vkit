@@ -10,3 +10,5 @@ export * from './hooks/useAnalytics';
 export * from './hooks/useAICompletion';
 export * from './utils/i18n';
 export * from './utils/analytics';
+
+export * from './utils/shared';
