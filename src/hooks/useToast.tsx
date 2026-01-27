@@ -1,4 +1,3 @@
-
 import * as React from "react";
 
 export interface ToastOptions {
@@ -23,7 +22,6 @@ export function useToast() {
   if (toast?.type === "success") bgClass = "bg-green-500 text-white";
   else if (toast?.type === "error") bgClass = "bg-red-500 text-white";
   else if (toast?.type === "warning") bgClass = "bg-yellow-500 text-black";
-
 
   function ToastComponent() {
     if (!toast) return null;
