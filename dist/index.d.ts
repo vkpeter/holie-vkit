@@ -38,4 +38,5 @@ export * from './components/Progress';
 export * from './components/Skeleton';
 export * from './components/Table';
 export * from './components/Toast';
+export * from './components/Accordion';
 export { useToast } from './hooks/useToast';
