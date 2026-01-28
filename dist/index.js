@@ -30,7 +30,7 @@ export * from './components/Textarea';
 export * from './components/Card';
 export * from './components/Checkbox';
 export * from './components/Tooltip';
-export * from './components/TooltipProvider';
+export { TooltipProvider } from './components/TooltipProvider';
 export * from './components/Popover';
 export * from './components/Sheet';
 export * from './components/Dialog';

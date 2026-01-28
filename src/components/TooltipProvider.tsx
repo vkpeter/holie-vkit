@@ -1,7 +1,9 @@
 import * as React from "react";
-import * as TooltipPrimitive from "@radix-ui/react-tooltip";
 
-export const TooltipProvider = TooltipPrimitive.Provider;
+// Simple TooltipProvider wrapper - works with the custom Tooltip component
+export const TooltipProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+  return <>{children}</>;
+};
 
 export interface TooltipProps {
   content: React.ReactNode;
@@ -20,3 +22,4 @@ export const Tooltip: React.FC<TooltipProps> = ({ content, children, className =
     </span>
   );
 };
+
