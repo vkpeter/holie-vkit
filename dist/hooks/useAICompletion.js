@@ -1,5 +1,14 @@
-// Shared AI completion hook placeholder
+import { useContext, createContext } from 'react';
+export const AICompletionContext = createContext(null);
 export function useAICompletion() {
-    // TODO: Implement shared AI completion logic or delegate to project-specific context
-    return { complete: async (prompt) => '' };
+    const context = useContext(AICompletionContext);
+    if (!context) {
+        // Fallback for projects that don't use AICompletionProvider
+        return {
+            complete: async (prompt) => '',
+            isLoading: false,
+            error: null,
+        };
+    }
+    return context;
 }

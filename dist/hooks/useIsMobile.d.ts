@@ -1,1 +1,1 @@
-export declare function useIsMobile(breakpoint?: number): boolean;
+export declare function useIsMobile(): boolean;

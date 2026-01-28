@@ -7,13 +7,14 @@ export * from './components/Navbar';
 export * from './components/Footer';
 export * from './hooks/useI18n';
 export * from './hooks/useAnalytics';
+export { useAICompletion } from './hooks/useAICompletion';
 export * from './utils/i18n';
 export * from './utils/analytics';
 
 export * from './utils/shared';
 export * from './constants/categories';
 export * from './constants/designTokens';
-export * from './hooks/useAI';
+export { useAICompletion as useAICompletionCore } from './hooks/useAI';
 export * from './hooks/useAnalyticsEvents';
 export * from './utils/translations';
 export * from './components/FormComponents';
@@ -45,5 +46,8 @@ export * from './components/Toast';
 // Newly added
 export * from './components/Accordion';
 
-// Export hooks
-export { useToast } from './hooks/useToast';
+// Export shared hooks and utilities
+export { useIsMobile } from './hooks/useIsMobile';
+export { useToast } from './hooks/use-toast';
+export { cn } from './lib/utils';
+
