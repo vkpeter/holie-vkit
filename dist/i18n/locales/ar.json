@@ -1,0 +1,38 @@
+{
+    "common": {
+        "home": "الصفحة الرئيسية",
+        "about": "من نحن",
+        "contact": "اتصل بنا",
+        "services": "الخدمات",
+        "portfolio": "الأعمال السابقة",
+        "faq": "الأسئلة الشائعة",
+        "back": "عودة",
+        "next": "التالي",
+        "previous": "السابق",
+        "close": "إغلاق",
+        "loading": "جاري التحميل...",
+        "error": "حدث خطأ",
+        "success": "نجاح",
+        "cancel": "إلغاء",
+        "save": "حفظ",
+        "delete": "حذف",
+        "edit": "تعديل",
+        "language": "اللغة",
+        "noData": "لا توجد بيانات",
+        "searchPlaceholder": "بحث..."
+    },
+    "buttons": {
+        "startNow": "ابدأ الآن",
+        "learnMore": "اعرف المزيد",
+        "signup": "إنشاء حساب",
+        "login": "تسجيل الدخول",
+        "logout": "تسجيل الخروج",
+        "submit": "إرسال"
+    },
+    "errors": {
+        "notFound": "الصفحة غير موجودة",
+        "unauthorized": "غير مصرح",
+        "serverError": "خطأ في الخادم",
+        "tryAgain": "حاول مرة أخرى"
+    }
+}

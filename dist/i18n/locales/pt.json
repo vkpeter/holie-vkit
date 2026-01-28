@@ -1,0 +1,38 @@
+{
+    "common": {
+        "home": "Início",
+        "about": "Sobre",
+        "contact": "Contato",
+        "services": "Serviços",
+        "portfolio": "Portfólio",
+        "faq": "Perguntas Frequentes",
+        "back": "Voltar",
+        "next": "Próximo",
+        "previous": "Anterior",
+        "close": "Fechar",
+        "loading": "Carregando...",
+        "error": "Ocorreu um erro",
+        "success": "Sucesso",
+        "cancel": "Cancelar",
+        "save": "Salvar",
+        "delete": "Excluir",
+        "edit": "Editar",
+        "language": "Idioma",
+        "noData": "Nenhum dado disponível",
+        "searchPlaceholder": "Pesquisar..."
+    },
+    "buttons": {
+        "startNow": "Comece Agora",
+        "learnMore": "Saiba Mais",
+        "signup": "Cadastre-se",
+        "login": "Entrar",
+        "logout": "Sair",
+        "submit": "Enviar"
+    },
+    "errors": {
+        "notFound": "Página não encontrada",
+        "unauthorized": "Não autorizado",
+        "serverError": "Erro do servidor",
+        "tryAgain": "Tente novamente"
+    }
+}

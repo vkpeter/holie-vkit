@@ -7,32 +7,57 @@ import nlCommon from './locales/nl.json';
 import enCommon from './locales/en.json';
 import deCommon from './locales/de.json';
 import frCommon from './locales/fr.json';
+import esCommon from './locales/es.json';
+import ptCommon from './locales/pt.json';
+import arCommon from './locales/ar.json';
+import plCommon from './locales/pl.json';
+import jaCommon from './locales/ja.json';
+import trCommon from './locales/tr.json';
 
-// Type-safe language type
-export type Language = 'nl' | 'en' | 'de' | 'fr';
+// Type-safe language type - all 10 supported
+export type Language = 'nl' | 'en' | 'de' | 'fr' | 'es' | 'pt' | 'ar' | 'pl' | 'ja' | 'tr';
 
-// Supported languages
+// All available languages in holie-vkit
+export const ALL_AVAILABLE_LANGUAGES: Language[] = ['nl', 'en', 'de', 'fr', 'es', 'pt', 'ar', 'pl', 'ja', 'tr'];
+
+// Default supported languages (projects can override)
 export const SUPPORTED_LANGUAGES: Language[] = ['nl', 'en', 'de', 'fr'];
 export const DEFAULT_LANGUAGE: Language = 'nl';
 
 // Initialize i18next
-export const initializeI18n = () => {
+export const initializeI18n = (activeLanguages?: Language[]) => {
   if (i18next.isInitialized) {
     return i18next;
   }
+
+  const allResources = {
+    nl: { translation: nlCommon },
+    en: { translation: enCommon },
+    de: { translation: deCommon },
+    fr: { translation: frCommon },
+    es: { translation: esCommon },
+    pt: { translation: ptCommon },
+    ar: { translation: arCommon },
+    pl: { translation: plCommon },
+    ja: { translation: jaCommon },
+    tr: { translation: trCommon },
+  };
+
+  // Use provided active languages or defaults
+  const langs = activeLanguages || SUPPORTED_LANGUAGES;
+  
+  // Filter resources to only active languages
+  const resources = Object.fromEntries(
+    Object.entries(allResources).filter(([lang]) => langs.includes(lang as Language))
+  );
 
   i18next
     .use(LanguageDetector)
     .use(initReactI18next)
     .init({
-      resources: {
-        nl: { translation: nlCommon },
-        en: { translation: enCommon },
-        de: { translation: deCommon },
-        fr: { translation: frCommon },
-      },
+      resources,
       fallbackLng: DEFAULT_LANGUAGE,
-      supportedLngs: SUPPORTED_LANGUAGES,
+      supportedLngs: langs,
       ns: ['translation'],
       defaultNS: 'translation',
       

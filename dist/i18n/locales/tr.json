@@ -1,0 +1,38 @@
+{
+    "common": {
+        "home": "Anasayfa",
+        "about": "Hakkımızda",
+        "contact": "İletişim",
+        "services": "Hizmetler",
+        "portfolio": "Portföy",
+        "faq": "Sık Sorulan Sorular",
+        "back": "Geri",
+        "next": "İleri",
+        "previous": "Önceki",
+        "close": "Kapat",
+        "loading": "Yükleniyor...",
+        "error": "Bir hata oluştu",
+        "success": "Başarılı",
+        "cancel": "İptal",
+        "save": "Kaydet",
+        "delete": "Sil",
+        "edit": "Düzenle",
+        "language": "Dil",
+        "noData": "Kullanılabilir veri yok",
+        "searchPlaceholder": "Ara..."
+    },
+    "buttons": {
+        "startNow": "Şimdi Başla",
+        "learnMore": "Daha Fazla Bilgi",
+        "signup": "Kaydol",
+        "login": "Giriş Yap",
+        "logout": "Çıkış Yap",
+        "submit": "Gönder"
+    },
+    "errors": {
+        "notFound": "Sayfa bulunamadı",
+        "unauthorized": "Yetkisiz",
+        "serverError": "Sunucu hatası",
+        "tryAgain": "Tekrar deneyin"
+    }
+}
