@@ -14,7 +14,7 @@ export * from './utils/analytics';
 export * from './utils/shared';
 export * from './constants/categories';
 export * from './constants/designTokens';
-export { useAICompletion as useAICompletionCore } from './hooks/useAI';
+export * from './hooks/useAI';
 export * from './hooks/useAnalyticsEvents';
 export * from './utils/translations';
 export * from './components/FormComponents';
