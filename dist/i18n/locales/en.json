@@ -1,0 +1,38 @@
+{
+    "common": {
+        "home": "Home",
+        "about": "About",
+        "contact": "Contact",
+        "services": "Services",
+        "portfolio": "Portfolio",
+        "faq": "FAQ",
+        "back": "Back",
+        "next": "Next",
+        "previous": "Previous",
+        "close": "Close",
+        "loading": "Loading...",
+        "error": "An error occurred",
+        "success": "Success",
+        "cancel": "Cancel",
+        "save": "Save",
+        "delete": "Delete",
+        "edit": "Edit",
+        "language": "Language",
+        "noData": "No data available",
+        "searchPlaceholder": "Search..."
+    },
+    "buttons": {
+        "startNow": "Start Now",
+        "learnMore": "Learn More",
+        "signup": "Sign Up",
+        "login": "Login",
+        "logout": "Logout",
+        "submit": "Submit"
+    },
+    "errors": {
+        "notFound": "Page not found",
+        "unauthorized": "Unauthorized",
+        "serverError": "Server error",
+        "tryAgain": "Try again"
+    }
+}

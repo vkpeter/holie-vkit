@@ -1,0 +1,38 @@
+{
+  "common": {
+    "home": "Start",
+    "about": "Over ons",
+    "contact": "Contact",
+    "services": "Diensten",
+    "portfolio": "Portfolio",
+    "faq": "FAQ",
+    "back": "Terug",
+    "next": "Volgende",
+    "previous": "Vorige",
+    "close": "Sluiten",
+    "loading": "Laden...",
+    "error": "Er is een fout opgetreden",
+    "success": "Succes",
+    "cancel": "Annuleren",
+    "save": "Opslaan",
+    "delete": "Verwijderen",
+    "edit": "Bewerken",
+    "language": "Taal",
+    "noData": "Geen gegevens beschikbaar",
+    "searchPlaceholder": "Zoeken..."
+  },
+  "buttons": {
+    "startNow": "Start Nu",
+    "learnMore": "Meer Informatie",
+    "signup": "Registreren",
+    "login": "Inloggen",
+    "logout": "Uitloggen",
+    "submit": "Verzenden"
+  },
+  "errors": {
+    "notFound": "Pagina niet gevonden",
+    "unauthorized": "Ongeautoriseerd",
+    "serverError": "Serverfout",
+    "tryAgain": "Probeer opnieuw"
+  }
+}
