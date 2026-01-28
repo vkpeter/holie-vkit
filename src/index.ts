@@ -45,6 +45,7 @@ export * from './components/Toast';
 
 // Newly added
 export * from './components/Accordion';
+export * from './components/DropdownMenu';
 
 // Export shared hooks and utilities
 export { useIsMobile } from './hooks/useIsMobile';

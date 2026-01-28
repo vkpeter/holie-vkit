@@ -40,6 +40,7 @@ export * from './components/Skeleton';
 export * from './components/Table';
 export * from './components/Toast';
 export * from './components/Accordion';
+export * from './components/DropdownMenu';
 export { useIsMobile } from './hooks/useIsMobile';
 export { useToast } from './hooks/use-toast';
 export { cn } from './lib/utils';
